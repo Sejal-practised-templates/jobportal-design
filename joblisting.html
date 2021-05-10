@@ -1,0 +1,624 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>job-listing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	<a class="vert-move" href="#" id="scroll"><span><img src="images/up-arrow.png" class="fas"></span></a>
+
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-light">
+						<a href="index.html" class="logo">
+							<img src="images/logo.png" class="img-fluid">
+						</a>
+						<div class="menu-sec">
+							<button class="hvr-rectangle-out" data-toggle="modal" data-target="#registerModal">Register</button>
+							<button class="hvr-rectangle-out" data-toggle="modal" data-target="#loginModal">Login</button>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="joblisting-banner-section common-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="joblisting-banner-img-sec">
+						<img src="images/joblisting-banner-img.png" class="girl-w-laptop-img img-fluid">
+						<img src="images/settings.png" class="setting-img">
+					</div>
+				</div>
+				<div class="col-md-7">
+					<h2 class="h2">Find Your Dream Job</h2>
+					<p class="p5"><a class="page-path" href="index.html">Home</a> | <span class="page-path">Job List</span></p>
+					<div class="search-bar-blk">
+						<div class="form-groups input-effect">
+							<input class="effect-20" type="text">
+				            <label>Job Title, Keyword</label>
+				            <span class="focus-border">
+				            	<i></i>
+				            </span>
+				            <img src="images/briefcase.png" class="fas font-weight-bold">
+						</div>
+						<div class="form-groups input-effect">
+							<input class="effect-20" type="text">
+				            <label> Location</label>
+				            <span class="focus-border">
+				            	<i></i>
+				            </span>
+				            <img src="images/location.png" class="fas font-weight-bold">
+						</div>
+						<!-- <div class="form-groups dropdown-effect">
+							<div class="floating-label">
+						      <select class="floating-select" onclick="this.setAttribute('value', this.value);" value="">
+						        <option value=""></option>
+						        <option value="1">More than 5 years</option>
+						        <option value="2">5 Years</option>
+						        <option value="3">4 Years</option>
+						        <option value="4">3 Years</option>
+						        <option value="5">2 Years</option>
+						        <option value="5">Fresher</option>
+						      </select>
+					      		<span class="highlight"></span>
+					      		<label>Experience</label>
+					    	</div>
+				            <img src="images/experience.png" class="fas">
+						</div> -->
+						<!-- <div class="form-groups dropdown-effect">
+							<div class="floating-label">
+						      <select class="floating-select" onclick="this.setAttribute('value', this.value);" value="">
+						        <option value=""></option>
+						        <option value="1">Full Time</option>
+						        <option value="2">Part Time</option>
+						        <option value="3">Internship</option>
+						        <option value="4">Freelance</option>
+						      </select>
+					      		<span class="highlight"></span>
+					      		<label>Job Type</label>
+					    	</div>
+				            <img src="images/clock.png" class="fas">
+						</div> -->
+						<button class="view-job">Search</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="joblisting-content-section common-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="job-list-sec">
+						<div class="job-sorting-sec">
+							<div class="result-count-sec">
+								<p class="p3 font-weight-bold"><span class="total-jobs">2600</span> Jobs Found</p>
+							</div>
+							<div class="form-groups dropdown-effect">
+								<div class="floating-label">
+							      <select class="floating-select" onclick="this.setAttribute('value', this.value);" value="">
+							        <option value=""></option>
+							        <option value="Newest">Newest</option>
+							        <option value="Oldest">Oldest</option>
+							        <option value="Random">Random</option>
+							      </select>
+						      		<span class="highlight"></span>
+						      		<label>Sort by:</label>
+						    	</div>
+					            <img src="images/sort.png" class="fas">
+							</div>
+						</div>
+						<div class="job-lists">
+							<div class="job-info">
+								<img src="images/company-logo-1.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Professional Copywriter for Advertising</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 full-time">Full Time</p>
+								</div>
+								
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-2.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Bank Transfer Operations Team Leader</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 full-time">Full Time</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-3.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Product Marketing Program Manager</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 part-time">Part Time</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-4.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Software Development Engineer – Foods Tech</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 freelance">Freelance</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-5.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Technical Program Manager, Cloud Programs</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 full-time">Full Time</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-4.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Trainee Web Designer, (Fresher)</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 part-time">Part Time</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-1.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">WordPress Developer</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 freelance">Freelance</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+							<div class="job-info">
+								<img src="images/company-logo-2.png">
+								<div class="job-details">
+									<a href="job-details.html" target="_blank" class="p3 font-weight-bold job-title">Graphic Designer</a>
+									<p class="p5 company-name">Massimo Artemisis</p>
+									<div class="company-location-sec">
+										<img src="images/location.png" class="fas font-weight-bold"><span class="p5 company-location">210-27 Quadra, Market street, Birmingham</span>
+									</div>
+									<p class="p5 part-time">Part Time</p>
+								</div>
+								<div class="job-info-btn-sec">
+									<button class="hvr-rectangle-out">Apply</button>
+									<a href="job-details.html" target="_blank" class="view-job">View Job</a>
+								</div>
+								<a href="" class="save-btn"><i class="far fa-heart"></i></a>
+							</div>
+						</div>
+					</div>
+					<ul class="pagination">
+					    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+					 </ul>
+				</div>
+				<div class="col-md-3">
+					<div class="job-filter-sec">
+						<div class="refind-job-sec">
+							<p class="p4"><span><img src="images/filter.png" class="fas img-fluid"></span> Refined by:</p>
+							<a class="p6">Reset All</a>
+						</div>
+						<div class="wrapper center-block">
+						  	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingOne">
+							        <p class="p4 font-weight-medium panel-title collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          Vacancy Type
+							        </p>
+							    </div>
+							    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							      <div class="panel-body">
+							        <div class="job-type">
+										<div class="form-checkbox form-checkbox-inline">
+				                            <label class="form-checkbox-label">
+				                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+				                            <i class="form-checkbox-button"></i><span>Full Time</span>
+				                            </label>
+				                        </div>	
+				                        <div class="form-checkbox form-checkbox-inline">
+				                            <label class="form-checkbox-label">
+				                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+				                            <i class="form-checkbox-button"></i><span>Part Time</span>
+				                            </label>
+				                        </div>
+				                        <div class="form-checkbox form-checkbox-inline">
+				                            <label class="form-checkbox-label">
+				                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+				                            <i class="form-checkbox-button"></i><span>Freelance</span>
+				                            </label>
+				                        </div>
+				                        <div class="form-checkbox form-checkbox-inline">
+				                            <label class="form-checkbox-label">
+				                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+				                            <i class="form-checkbox-button"></i><span>Temporary</span>
+				                            </label>
+				                        </div>
+				                        <div class="form-checkbox form-checkbox-inline">
+				                            <label class="form-checkbox-label">
+				                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+				                            <i class="form-checkbox-button"></i><span>Internship</span>
+				                            </label>
+				                        </div>			
+									</div>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading collapsed active" role="tab" id="headingTwo">
+							        <p class="p4 font-weight-medium panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          Jobs By Category
+							        </p>
+							    </div>
+							    <div id="collapseTwo" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingTwo">
+							      <div class="panel-body">
+							        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Accountancy</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Digital & Creative</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>IT Contractor</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Marketing & PR</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Media</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Retail</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Sales & Marketing</span>
+			                            </label>
+			                        </div>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="panel panel-default">
+							    <div class="panel-heading active" role="tab" id="headingThree">
+							        <p class="p4 font-weight-medium panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							           Date Posted
+							        </p>
+							    </div>
+							    <div id="collapseThree" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingThree">
+							      <div class="panel-body">
+							       <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Last Hour</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Last 24 hours</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Last 7 days</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Last 30 days</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>All</span>
+			                            </label>
+			                        </div>
+							      </div>
+							    </div>
+							 </div>
+							 <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingFour">
+							        <p class="p4 font-weight-medium panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Experience
+							        </p>
+							    </div>
+							    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							      <div class="panel-body">
+							      	<div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>More than 5 Year</span>
+			                            </label>
+			                        </div>
+							       <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>5 Year</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>More than 2 Year</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>1 Year</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Fresher</span>
+			                            </label>
+			                        </div>
+							      </div>
+							    </div>
+							 </div>
+							 <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingFive">
+							        <p class="p4 font-weight-medium panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Qualification
+							        </p>
+							    </div>
+							    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+							      <div class="panel-body">
+							      	<div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Master’s Degree</span>
+			                            </label>
+			                        </div>
+							       <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Bachelor Degree</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Associate Degree</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Certificate </span>
+			                            </label>
+			                        </div>
+							      </div>
+							    </div>
+							 </div>
+							 <div class="panel panel-default">
+							    <div class="panel-heading" role="tab" id="headingSix">
+							        <p class="p4 font-weight-medium panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Industry
+							        </p>
+							    </div>
+							    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+							      <div class="panel-body">
+							      	<div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Development</span>
+			                            </label>
+			                        </div>
+							       <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Finance</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Html & Css</span>
+			                            </label>
+			                        </div>
+			                        <div class="form-checkbox form-checkbox-inline">
+			                            <label class="form-checkbox-label">
+			                            <input class="form-checkbox-field inp-album-public" type="checkbox">
+			                            <i class="form-checkbox-button"></i><span>Banking</span>
+			                            </label>
+			                        </div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="images/bg-cropped.png" class="bg-right">
+		<img src="images/bg.png" class="bg-left">
+	</section>
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="p5 font-weight-medium">Copyright &#169; 2021 All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Modal -->
+		<div class="modal fade" id="registerModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="staticBackdropLabel">Create your account</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		       <div class="main-container">
+					<div class="form-groups input-effect">
+						<input class="effect-20" type="text" required>
+			            <label> Your Name*</label>
+			            <span class="focus-border">
+			            	<i></i>
+			            </span>
+			            <img src="images/name.png" class="fas font-weight-bold">
+					</div>
+					<div class="form-groups input-effect">
+						<input class="effect-20" type="text" required>
+			            <label> Email Address*</label>
+			            <span class="focus-border">
+			            	<i></i>
+			            </span>
+			            <img src="images/email.png" class="fas font-weight-bold">
+					</div>
+					<div class="form-groups input-effect">
+						<input class="effect-20" type="Password">
+			            <label> Password*</label>
+			            <span class="focus-border">
+			            	<i></i>
+			            </span>
+			            <img src="images/padlock.png" class="fas font-weight-bold">
+					</div>
+					<button class="hvr-rectangle-out signup-btn">Sign Up</button>
+					<p class="p6">By clicking sign up you agree to our <a href="">Terms</a> and read our <a href="">Privacy Policy.</a></p>
+					<p class="p4 alredy-signed">Already have an account? <a href="" class="font-weight-semibold" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Sign in</a></p>
+					<p class="p4 or">OR</p>
+					<a class="login-google" href=""><i class="fab fa-google"></i> Sign up with Google</a><br>
+					<a class="login-facebook" href=""><i class="fab fa-facebook-square"></i> Sign up with Facebook</a>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="loginModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="staticBackdropLabel">Login to your account</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		       <div class="main-container">
+					<div class="form-groups input-effect">
+						<input class="effect-20" type="Email" required>
+			            <label> Email Address</label>
+			            <span class="focus-border">
+			            	<i></i>
+			            </span>
+			            <img src="images/email.png" class="fas font-weight-bold">
+					</div>
+					<div class="form-groups input-effect">
+						<input class="effect-20" type="Password">
+			            <label> Password</label>
+			            <span class="focus-border">
+			            	<i></i>
+			            </span>
+			            <img src="images/padlock.png" class="fas font-weight-bold">
+					</div>
+					<a class="p5" href="">Forgot your password?</a>
+					<button class="hvr-rectangle-out login-btn">Login</button>
+					<p class="p4">Don't have an account yet? <a href="" class="font-weight-semibold" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Sign up</a></p>
+					<p class="p4 or">OR</p>
+					<a class="login-google" href=""><i class="fab fa-google"></i> Sign in with Google</a><br>
+					<a class="login-facebook" href=""><i class="fab fa-facebook-square"></i> Sign in with Facebook</a>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	<script src="https://kit.fontawesome.com/58bdff311f.js" crossorigin="anonymous"></script>
+	<script src="script/jquery.min.js"></script>
+	<script src="script/bootstrap.min.js"></script>
+	<script src="script/owl.carousel.min.js"></script>
+	<script src="script/custom.js"></script>
+
+</body>
+</html>
